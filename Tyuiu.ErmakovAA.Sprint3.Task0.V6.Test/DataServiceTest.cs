@@ -17,4 +17,4 @@ namespace Tyuiu.ErmakovAA.Sprint3.Task0.V6.Test
             Assert.AreEqual(wait, res);
         }
     }
-}
+} 
