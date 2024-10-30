@@ -5,12 +5,12 @@ namespace Tyuiu.ErmakovAA.Sprint3.Task0.V6.Lib
     {
         public double GetMultiplySeries(int startValue, int stopValue)
         {
-            double MultiplySeries = 0 ;
+            double MultiplySeries = 1 ;
             int i;
 
             for (i = startValue; i <= stopValue; i++)
             {
-                MultiplySeries +=  (1 / Math.Pow((Math.Cos(5) + 1), 2));
+                MultiplySeries = MultiplySeries * (1 / Math.Pow((Math.Cos(5) + 1), 2));
                 
             }
             return Math.Round(MultiplySeries,3);
