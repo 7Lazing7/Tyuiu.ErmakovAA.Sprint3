@@ -9,7 +9,7 @@ namespace Tyuiu.ErmakovAA.Sprint3.Task1.V19.Lib
                 double multiplySeries = 1;
                 while (startValue <= stopValue)
                 {
-                    multiplySeries = multiplySeries * (Math.Cos(value) + (startValue / 4));
+                    multiplySeries = multiplySeries * ((Math.Cos(value)) + ((double) startValue / 4));
                     startValue++;
                 }
                 return Math.Round(multiplySeries,3);
