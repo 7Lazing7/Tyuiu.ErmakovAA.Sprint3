@@ -8,7 +8,7 @@ namespace Tyuiu.ErmakovAA.Sprint3.Task2.V18.Lib
             double multiplySeries = 1;
             do
             {
-                multiplySeries = multiplySeries * ((Math.Pow((Math.Cos(value)) + ((double)startValue / 8), 3)));
+                multiplySeries = multiplySeries * (Math.Pow((Math.Cos(value)) + (startValue / 8), 3));
                 startValue++;
             } while (startValue <= stopValue);
             return Math.Round(multiplySeries, 3);
