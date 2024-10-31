@@ -4,22 +4,21 @@
     {
         static void Main(string[] args)
         {
-            int a = 2;
-            int b = 4;
-            int c = 3;
-            int d = 5;
+            int a = 4;
+            int b = 6;
+            int c = 7;
+            int d = 8;
             int i = 1;
 
-            while (i < 4)
+            do
             {
-                b++ ;
-                b -= a;
+                a++;
+                b = a + c;
                 c = b - a;
-                d = (c+a) + i;
+                d = (a - c) - i;
                 i++;
-
-            }
-            Console.WriteLine(d);
+            } while (i < 4);
+               Console.WriteLine(d);
         }
 
     }
