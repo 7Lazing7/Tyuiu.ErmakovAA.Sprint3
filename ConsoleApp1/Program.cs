@@ -4,21 +4,19 @@
     {
         static void Main(string[] args)
         {
-            int a = 4;
-            int b = 6;
-            int c = 7;
-            int d = 8;
-            int i = 1;
-
-            do
+            int x;
+            double sp = 1;
+            int i= 0;
+            for (x = -2; x <= 2; x++)
             {
-                a++;
-                b = a + c;
-                c = b - a;
-                d = (a - c) - i;
+                if (x == 0)
+                { 
+                continue;
+                }
+                sp = sp * (2*x+2);
                 i++;
-            } while (i < 4);
-               Console.WriteLine(d);
+            }
+            Console.WriteLine(sp);
         }
 
     }
